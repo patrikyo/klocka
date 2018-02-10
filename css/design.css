@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+*{ 
+  box-sizing : border-box;
+}
+body{
+  background-image: url("https://drive.google.com/uc?id=1UpWB3JC2tYhcDrMeAZ0S5k5YwEzqo4ir");
+}
+.main{
+  width : 80%;
+  height : 0;
+  padding: 40% 0;
+  border : 15px solid #616161;
+  margin: 0 auto;
+  position: relative;
+  border-radius : 100%;
+  background-color : #F5F5F5;
+}
+.titel-container{
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.titel-container h1{
+   background-color: #F44336;
+   color : white;
+   font-weight : bold;
+   font-size : 3em;
+   display: inline-block;
+   padding: 0.3% 3%;
+   position: relative;
+   top: 35px;
+}
+.klockan{
+  position : absolute;
+  width : 100%;
+  top : 40%;
+  text-align : center;
+  font-family : "orbitron", sans-serif;
+  font-size : 3em;
+  color:#424242;
+}
+@media (min-width: 1400px){
+.main{
+  width : 35%;
+  padding: 17.5% 0;
+}
+}
+@media (max-width: 1399px){
+.main{
+  width : 50%;
+  padding: 25% 0;
+}
+}
+@media (max-width: 1100px){
+.main{
+  width : 60%;
+  padding: 30% 0;
+}
+}
+@media (max-width: 840px){
+.main{
+  width : 70%;
+  padding: 35% 0;
+}
+}
+@media (max-width: 550px){
+.main{
+  width : 100%;
+  padding: 50% 0;
+}
+.klockan{
+  font-size : 2.5em;
+}
+.titel-container h1{
+  font-size : 2.5em; 
+  top: 28px;
+}
+}
+  
